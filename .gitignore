@@ -1,0 +1,17 @@
+﻿################################################################################
+# 此 .gitignore 文件已由 Microsoft(R) Visual Studio 自动创建。
+################################################################################
+
+/.vs
+/CantoneseTranslation.App/bin/Debug/net8.0-windows
+/CantoneseTranslation.Business/bin/Debug/net8.0
+/CantoneseTranslation.Data/bin/Debug/netstandard2.1
+/CantoneseTranslation.Data/obj
+/CantoneseTranslation.DataAccess/bin/Debug/netstandard2.1
+/CantoneseTranslation.DataAccess/obj
+/CantoneseTranslation.Model/bin/Debug/netstandard2.1
+/CantoneseTranslation.Model/obj
+/CantoneseTranslation.Participle/bin/Debug/netstandard2.1
+/CantoneseTranslation.Participle/obj
+/CantoneseTranslation.App/obj
+/CantoneseTranslation.Business/obj
