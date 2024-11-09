@@ -199,8 +199,8 @@ namespace CantoneseLearning.Business
                                     {
                                         combination += nextWord[j];
 
-                                        if (combination == "上"
-                                            || ParticipleHelper.IsVerbWord(combination))
+                                        if ((combination == "上" || combination == "下")
+                                           || ParticipleHelper.IsVerbWord(combination))
                                         {
                                             count++;
                                             break;

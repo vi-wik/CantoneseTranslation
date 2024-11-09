@@ -15,3 +15,10 @@
 /CantoneseTranslation.Participle/obj
 /CantoneseTranslation.App/obj
 /CantoneseTranslation.Business/obj
+/CantoneseTranslation.App/bin/Release/net8.0-windows
+/CantoneseTranslation.Business/bin/Release/net8.0
+/CantoneseTranslation.Data/bin/Release/netstandard2.1
+/CantoneseTranslation.DataAccess/bin/Release/netstandard2.1
+/CantoneseTranslation.Model/bin/Release/netstandard2.1
+/CantoneseTranslation.Model/bin/Release/netstandard2.1/CantoneseTranslation.Model.deps.json
+/CantoneseTranslation.Participle/bin/Release/netstandard2.1
