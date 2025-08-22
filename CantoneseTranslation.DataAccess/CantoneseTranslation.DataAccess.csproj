@@ -12,7 +12,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\CantoneseTranslation.Data\CantoneseTranslation.Data.csproj" />
     <ProjectReference Include="..\CantoneseTranslation.Model\CantoneseTranslation.Model.csproj" />
   </ItemGroup>
 

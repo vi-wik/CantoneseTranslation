@@ -1,4 +1,6 @@
-namespace CantoneseTranslation
+using viwik.CantoneseTranslation.Business;
+
+namespace viwik.CantoneseTranslation.App
 {
     internal static class Program
     {
@@ -11,6 +13,9 @@ namespace CantoneseTranslation
             // To customize application configuration such as set high DPI settings or default font,
             // see https://aka.ms/applicationconfiguration.
             ApplicationConfiguration.Initialize();
+
+            DataFileManager.Init();
+
             Application.Run(new frmMain());
         }
     }

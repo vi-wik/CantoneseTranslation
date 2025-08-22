@@ -1,12 +1,10 @@
-using CantoneseTranslation.App.Forms;
-using CantoneseTranslation.App.Manager;
-using CantoneseTranslation.Business;
-using CantoneseTranslation.Business.Helper;
-using CantoneseTranslation.Business.Model;
-using System.Reflection.Metadata;
+using viwik.CantoneseTranslation.App.Manager;
 using System.Text;
+using viwik.CantoneseLearning.BLL.Core;
+using viwik.CantoneseLearning.BLL.Core.Model;
+using viwik.CantoneseLearning.Utility;
 
-namespace CantoneseTranslation
+namespace viwik.CantoneseTranslation.App
 {
     public partial class frmMain : Form
     {

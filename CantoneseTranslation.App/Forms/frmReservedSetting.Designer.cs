@@ -1,4 +1,4 @@
-﻿namespace CantoneseTranslation.App.Forms
+﻿namespace viwik.CantoneseTranslation.App
 {
     partial class frmReservedSetting
     {

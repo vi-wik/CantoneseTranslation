@@ -6,11 +6,16 @@
     <Nullable>enable</Nullable>
     <UseWindowsForms>true</UseWindowsForms>
     <ImplicitUsings>enable</ImplicitUsings>
+    <AssemblyName>viwik.$(MSBuildProjectName)</AssemblyName>
+    <RootNamespace>viwik.$(MSBuildProjectName.Replace(" ", "_"))</RootNamespace>
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="viwik.CantoneseLearning.BLL.Core" Version="1.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\CantoneseTranslation.Business\CantoneseTranslation.Business.csproj" />
-    <ProjectReference Include="..\CantoneseTranslation.Model\CantoneseTranslation.Model.csproj" />
   </ItemGroup>
 
   <ItemGroup>

@@ -5,15 +5,7 @@ VisualStudioVersion = 17.9.34622.214
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CantoneseTranslation.App", "CantoneseTranslation.App\CantoneseTranslation.App.csproj", "{1FEF22DB-CCDF-470B-A469-0DA86F198098}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CantoneseTranslation.DataAccess", "CantoneseTranslation.DataAccess\CantoneseTranslation.DataAccess.csproj", "{D32C684E-5EC0-43B9-8FBD-FEB8DEB77888}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CantoneseTranslation.Model", "CantoneseTranslation.Model\CantoneseTranslation.Model.csproj", "{DEB56281-8CC4-4A53-A930-972BE8A1AD57}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CantoneseTranslation.Data", "CantoneseTranslation.Data\CantoneseTranslation.Data.csproj", "{5A05FC13-13BC-4769-947E-51B126EEBFED}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CantoneseTranslation.Business", "CantoneseTranslation.Business\CantoneseTranslation.Business.csproj", "{75BCBC13-677F-4703-8BCA-AAE837D50CB3}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CantoneseTranslation.Participle", "CantoneseTranslation.Participle\CantoneseTranslation.Participle.csproj", "{795CE163-1638-4B5F-B6F9-A789019A09D5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CantoneseTranslation.Business", "CantoneseTranslation.Business\CantoneseTranslation.Business.csproj", "{60C24FA1-2C58-4900-8EE3-7ECD04208B0E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -25,26 +17,10 @@ Global
 		{1FEF22DB-CCDF-470B-A469-0DA86F198098}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1FEF22DB-CCDF-470B-A469-0DA86F198098}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1FEF22DB-CCDF-470B-A469-0DA86F198098}.Release|Any CPU.Build.0 = Release|Any CPU
-		{D32C684E-5EC0-43B9-8FBD-FEB8DEB77888}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D32C684E-5EC0-43B9-8FBD-FEB8DEB77888}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D32C684E-5EC0-43B9-8FBD-FEB8DEB77888}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D32C684E-5EC0-43B9-8FBD-FEB8DEB77888}.Release|Any CPU.Build.0 = Release|Any CPU
-		{DEB56281-8CC4-4A53-A930-972BE8A1AD57}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{DEB56281-8CC4-4A53-A930-972BE8A1AD57}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{DEB56281-8CC4-4A53-A930-972BE8A1AD57}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{DEB56281-8CC4-4A53-A930-972BE8A1AD57}.Release|Any CPU.Build.0 = Release|Any CPU
-		{5A05FC13-13BC-4769-947E-51B126EEBFED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{5A05FC13-13BC-4769-947E-51B126EEBFED}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{5A05FC13-13BC-4769-947E-51B126EEBFED}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{5A05FC13-13BC-4769-947E-51B126EEBFED}.Release|Any CPU.Build.0 = Release|Any CPU
-		{75BCBC13-677F-4703-8BCA-AAE837D50CB3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{75BCBC13-677F-4703-8BCA-AAE837D50CB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{75BCBC13-677F-4703-8BCA-AAE837D50CB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{75BCBC13-677F-4703-8BCA-AAE837D50CB3}.Release|Any CPU.Build.0 = Release|Any CPU
-		{795CE163-1638-4B5F-B6F9-A789019A09D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{795CE163-1638-4B5F-B6F9-A789019A09D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{795CE163-1638-4B5F-B6F9-A789019A09D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{795CE163-1638-4B5F-B6F9-A789019A09D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{60C24FA1-2C58-4900-8EE3-7ECD04208B0E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60C24FA1-2C58-4900-8EE3-7ECD04208B0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60C24FA1-2C58-4900-8EE3-7ECD04208B0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60C24FA1-2C58-4900-8EE3-7ECD04208B0E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -4,17 +4,12 @@
     <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <AssemblyName>viwik.$(MSBuildProjectName)</AssemblyName>
+    <RootNamespace>viwik.$(MSBuildProjectName.Replace(" ", "_"))</RootNamespace>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="CHTCHSConv" Version="1.0.0" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <ProjectReference Include="..\CantoneseTranslation.DataAccess\CantoneseTranslation.DataAccess.csproj" />
-    <ProjectReference Include="..\CantoneseTranslation.Data\CantoneseTranslation.Data.csproj" />
-    <ProjectReference Include="..\CantoneseTranslation.Model\CantoneseTranslation.Model.csproj" />
-    <ProjectReference Include="..\CantoneseTranslation.Participle\CantoneseTranslation.Participle.csproj" />
+    <PackageReference Include="viwik.CantoneseLearning.DataAccess" Version="1.0.1" />
   </ItemGroup>
 
 </Project>

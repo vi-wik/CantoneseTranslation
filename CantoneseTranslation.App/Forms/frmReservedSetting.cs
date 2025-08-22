@@ -1,4 +1,4 @@
-﻿using CantoneseTranslation.App.Manager;
+﻿using viwik.CantoneseTranslation.App.Manager;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -9,7 +9,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace CantoneseTranslation.App.Forms
+namespace viwik.CantoneseTranslation.App
 {
     public partial class frmReservedSetting : Form
     {

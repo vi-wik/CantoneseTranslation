@@ -1,4 +1,4 @@
-﻿namespace CantoneseTranslation
+﻿namespace viwik.CantoneseTranslation.App
 {
     partial class frmMain
     {
@@ -47,7 +47,7 @@
             // 
             // btnExchange
             // 
-            btnExchange.Image = App.Resource.Exchange;
+            btnExchange.Image = Resource.Exchange;
             btnExchange.Location = new Point(59, 25);
             btnExchange.Name = "btnExchange";
             btnExchange.Size = new Size(49, 23);
@@ -60,18 +60,18 @@
             lblSource.AutoSize = true;
             lblSource.Location = new Point(12, 28);
             lblSource.Name = "lblSource";
-            lblSource.Size = new Size(32, 17);
+            lblSource.Size = new Size(44, 17);
             lblSource.TabIndex = 1;
-            lblSource.Text = "粤语";
+            lblSource.Text = "普通话";
             // 
             // lblTarget
             // 
             lblTarget.AutoSize = true;
             lblTarget.Location = new Point(124, 28);
             lblTarget.Name = "lblTarget";
-            lblTarget.Size = new Size(44, 17);
+            lblTarget.Size = new Size(32, 17);
             lblTarget.TabIndex = 2;
-            lblTarget.Text = "普通话";
+            lblTarget.Text = "粤语";
             // 
             // menuStrip1
             // 
