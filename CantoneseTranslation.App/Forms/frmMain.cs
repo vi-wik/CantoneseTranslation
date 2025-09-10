@@ -79,7 +79,7 @@ namespace viwik.CantoneseTranslation.App
                     }
                     else
                     {
-                        var result = await DataProcessor.Translate(translateType, item.Text);
+                        var result = await DataProcessor.Translate(translateType, item.Text, reservedWords);
 
                         if (result.Contents.Count > 0)
                         {

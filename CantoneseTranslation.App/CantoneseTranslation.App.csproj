@@ -11,7 +11,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="viwik.CantoneseLearning.BLL.Core" Version="1.0.1" />
+    <PackageReference Include="viwik.CantoneseLearning.BLL.Core" Version="1.0.2" />
   </ItemGroup>
 
   <ItemGroup>
